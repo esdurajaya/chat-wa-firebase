@@ -6,6 +6,9 @@ const firebaseConfig = {
   apiKey: "AIzaSyCN4toCiRuRnro8gmiYIaGBcWMx837t0H8",
   authDomain: "chat-wa-firebase.firebaseapp.com",
   projectId: "chat-wa-firebase"
+  storageBucket: "chat-wa-firebase.firebasestorage.app",
+  messagingSenderId: "893969750964",
+  appId: "1:893969750964:web:5c2286a43266b57661f0e1"
 };
 
 const app = initializeApp(firebaseConfig);
