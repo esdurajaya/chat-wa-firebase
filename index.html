@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat WA Firebase</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="login">
+    <h2>Masukkan Nama</h2>
+    <input id="username" placeholder="Nama Anda" />
+    <button onclick="startChat()">Masuk Chat</button>
+  </div>
+
+  <div id="chat" style="display:none">
+    <header>Chat WhatsApp-like</header>
+    <select id="room">
+      <option value="umum">Umum</option>
+      <option value="kelas">Kelas</option>
+      <option value="private">Private</option>
+    </select>
+    <div id="messages"></div>
+    <input id="messageInput" placeholder="Ketik pesan..." />
+    <button onclick="sendMessage()">Kirim</button>
+  </div>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
